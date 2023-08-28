@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Hind&family=Source+Code+Pro&display=swap');
+
+/*
+* paleta de cores
+* .color1 { #c9d1d3 };
+* .color2 { #f7f7f7 };
+* .color3 { #9dd3df };
+* .color4 { #3b3737 };
+* .color5 { #991818 };
+*/
+
+* {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+
+    color: #3b3737;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+.inputs {
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.inputs input {
+    width: 70%;
+    height: 2em;
+    
+    margin: 1em;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputs button {
+    width: 50%;
+    height: 3em;
+
+    margin: 1em;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #c9d1d3;
+    background-color: #3b3737;
+
+    font-size: 16px;
+}
+
+h2 {
+    text-align: center;
+}
